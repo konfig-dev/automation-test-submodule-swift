@@ -1,0 +1,15 @@
+name: AutomationTestWithSubmodules
+targets:
+  AutomationTestWithSubmodules:
+    type: framework
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [AutomationTestWithSubmodules]
+    info:
+      path: ./Info.plist
+      version: 1.0.1
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+    scheme: {}
+    dependencies:
+      - carthage: AnyCodable
