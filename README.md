@@ -37,7 +37,7 @@ github "konfig-dev/automation-test-submodule-swift"
 ### CocoaPods<a id="cocoapods"></a>
 
 1. Add `source 'https://github.com/CocoaPods/Specs.git'` to your `Podfile`
-2. Add `pod 'AutomationTestWithSubmodules', '~> 1.0.2'` to your `Podfile`
+2. Add `pod 'AutomationTestWithSubmodules', '~> 1.0.3'` to your `Podfile`
 
 Your `Podfile` should look like:
 ```ruby
@@ -45,7 +45,7 @@ Your `Podfile` should look like:
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Example' do
-  pod 'AutomationTestWithSubmodules', '~> 1.0.2'
+  pod 'AutomationTestWithSubmodules', '~> 1.0.3'
 end
 ```
 3. Run `pod install`
@@ -54,7 +54,7 @@ end
 ❯ pod install
 Analyzing dependencies
 Downloading dependencies
-Installing AutomationTestWithSubmodules 1.0.2
+Installing AutomationTestWithSubmodules 1.0.3
 Generating Pods project
 Integrating client project
 Pod installation complete! There is 1 dependency from the Podfile and 2 total pods installed.
