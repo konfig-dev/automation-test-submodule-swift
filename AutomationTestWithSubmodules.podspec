@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '13.0'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '4.0'
-  s.version = '1.0.1'
-  s.source = { :git => 'https://github.com/konfig-dev/automation-test-submodule-swift.git', :tag => 'v1.0.1' }
+  s.version = '1.0.2'
+  s.source = { :git => 'https://github.com/konfig-dev/automation-test-submodule-swift.git', :tag => 'v1.0.2' }
   s.authors = 'KonfigAutomationTest'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage = 'https://github.com/konfig-dev/automation-test-submodule-swift'
